@@ -1,5 +1,12 @@
-git add
-git init
-git commit
-git status
-git log
+git add nome-do-arquivo - Adiciona o arquivo para “staging area”, local onde os arquivos
+ficam para serem versionados (commits)
+
+git commit -m “Mensagem do Commit” - Realiza o commit (versionamento) do(s)
+arquivo(s) que estão no staging area
+
+git diff - Mostra as diferenças do conteúdo do arquivo atual em comparação com o último
+commit
+
+git status - Mostra o status atual dos arquivos no repositório
+
+git log - Mostra o histórico de commits realizados no repositório
