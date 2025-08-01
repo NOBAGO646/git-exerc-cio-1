@@ -1,0 +1,35 @@
+mkdir nome-da-pasta: Cria uma nova pasta no diretório atual.
+
+cd nome-da-pasta: Entra na pasta especificada.
+
+cd ..: Volta para a pasta anterior.
+
+echo "conteúdo" > nome-do-arquivo: Cria um novo arquivo com o conteúdo especificado (sobrescreve se já existir).
+
+echo "conteúdo" >> nome-do-arquivo: Adiciona conteúdo ao final de um arquivo existente (sem apagar o que já tem).
+
+Comandos do Git:
+git -v: Mostra a versão do Git instalada (útil para verificar se o Git está disponível).
+
+git config --global user.name "Seu nome": Configura o nome do usuário que será usado nos commits (feito uma vez por máquina).
+
+git config --global user.email "seu@email.com": Configura o e-mail do usuário para os commits.
+
+git init: Inicializa o repositório Git na pasta atual, criando a pasta oculta .git.
+
+git add nome-do-arquivo: Adiciona um arquivo específico para a área de staging (pronto para commit).
+
+git commit -m "Mensagem do commit": Cria um commit com os arquivos adicionados, junto com uma mensagem descritiva.
+
+git diff: Mostra as diferenças entre o conteúdo atual do arquivo e o último commit.
+
+git status: Exibe o estado atual do repositório (arquivos modificados, não rastreados, etc.).
+
+git log: Exibe o histórico dos commits realizados no repositório.
+
+git remote add origin link-do-repositorio-github: Adiciona um repositório remoto com o apelido “origin” (normalmente usado para o GitHub).
+
+git branch -M main: Cria ou renomeia a branch principal para “main”.
+
+git push -u origin main: Envia os commits da branch main para o repositório remoto chamado “origin”.
+
